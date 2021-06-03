@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="index.css">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+    <script defer src="render.js"></script>
+    
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <h1 class="header">Record a Screen/Window</h1>
+      </div>
+      <div class='vidWrapper'>
+        <video class='vid'></video>
+      </div>
+
+      <div class='btnWrapper'>
+        <button id='startBtn' class='button is-primary'>Start</button>
+        <button id='stopBtn' class='button is-warning'>Stop</button>
+      </div>
+
+      <div class='btnWrapper'>
+        <button id="videoSelectBtn" class="button is-text">Choose a Video Source</button>
+      </div>
+        
+    </div>
+  </body>
+</html>
