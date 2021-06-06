@@ -18,7 +18,7 @@ npm run make
 ```
 4. Run application
 ```open
-my-app.exe
+click my-app.exe to open
 ```
 
 ## How to Use
